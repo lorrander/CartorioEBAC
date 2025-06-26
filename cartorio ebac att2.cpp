@@ -145,7 +145,7 @@ int main()
             break;
         case 0:
             printf("Saindo do programa.\n");
-            laco = 0;
+            return 0;
             break;
         default:
             printf("Opção inválida! Tente novamente.\n");
